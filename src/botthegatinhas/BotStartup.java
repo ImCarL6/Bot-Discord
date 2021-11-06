@@ -12,7 +12,7 @@ public class BotStartup {
     
     public static void botStartup() throws LoginException, InterruptedException{
         
-        String token = "OTA1ODQ3MTM3MzI4MzAwMDYy.YYQB4w.tKQlMvhheo94c3mCoIWvNzSyctQ";
+        String token = "";
         
         JDA jda = JDABuilder.createDefault(token).build().awaitReady();
         
